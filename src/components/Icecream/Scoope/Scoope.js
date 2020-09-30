@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './Scoope.module.css';
 
-function Scoope() {
+function Scoope({scoop}) {
     return (
-        <div className={[classes.scoop, classes.orange].join(' ')}></div>
+        <div className={[classes.scoop, classes.[scoop]].join(' ')}></div>
     )
 }
 
